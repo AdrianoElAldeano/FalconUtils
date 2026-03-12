@@ -47,7 +47,7 @@
           <HintPath>..\..\..\OneDrive\Imágenes\Escritorio\14.2\CommandSystem.Core.dll</HintPath>
         </Reference>
         <Reference Include="HintServiceMeow">
-          <HintPath>..\..\..\OneDrive\Imágenes\Escritorio\14.2\otro\HintServiceMeow-LabAPI.dll</HintPath>
+          <HintPath>..\..\..\OneDrive\Imágenes\Escritorio\14.2.5\otro\HintServiceMeow-LabAPI.dll</HintPath>
         </Reference>
         <Reference Include="LabApi">
           <HintPath>..\..\..\OneDrive\Imágenes\Escritorio\14.2\LabApi.dll</HintPath>
@@ -66,9 +66,11 @@
     <ItemGroup>
         <Compile Include="AyudaCommand.cs" />
         <Compile Include="AyudaData.cs" />
+        <Compile Include="Config.cs" />
         <Compile Include="EventHandler.cs" />
         <Compile Include="FalconUtils.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
+        <Compile Include="SupInvHandler.cs" />
         <Compile Include="VolverCommand.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>

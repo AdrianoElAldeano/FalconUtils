@@ -5,7 +5,7 @@ using LabApi.Loader.Features.Plugins;
 
 namespace FalconUtils
 {
-    public class FalconUtils : Plugin
+    public class FalconUtils : Plugin<Config>
     {
         public override string Name => "FalconUtils";
 
@@ -14,15 +14,19 @@ namespace FalconUtils
         public override Version Version => new Version(1, 0, 0);
         public override Version RequiredApiVersion => new Version(LabApiProperties.CompiledVersion);
         private EventHandler EventHandler = new EventHandler();
+        private Sup_InvHandler Sup_InvHandler;
         
         public override void Enable()
         {
+            Sup_InvHandler = new Sup_InvHandler(this);
             CustomHandlersManager.RegisterEventsHandler(EventHandler);
+            CustomHandlersManager.RegisterEventsHandler(Sup_InvHandler);
         }
 
         public override void Disable()
         {
             CustomHandlersManager.UnregisterEventsHandler(EventHandler);
+            CustomHandlersManager.UnregisterEventsHandler(Sup_InvHandler);
         }
     }
 }
