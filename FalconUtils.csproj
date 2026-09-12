@@ -47,7 +47,7 @@
           <HintPath>..\..\..\OneDrive\Imágenes\Escritorio\14.2\CommandSystem.Core.dll</HintPath>
         </Reference>
         <Reference Include="HintServiceMeow">
-          <HintPath>..\..\..\OneDrive\Imágenes\Escritorio\14.2.5\otro\HintServiceMeow-LabAPI.dll</HintPath>
+          <HintPath>..\..\..\OneDrive\Imágenes\Escritorio\14.2.7\otro\HintServiceMeow-LabAPI.dll</HintPath>
         </Reference>
         <Reference Include="LabApi">
           <HintPath>..\..\..\OneDrive\Imágenes\Escritorio\14.2\LabApi.dll</HintPath>
