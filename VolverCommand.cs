@@ -41,7 +41,7 @@ namespace FalconUtils
             {
                 Hint hint = new Hint();
                 {
-                    hint.Text = "La solicitud de ayuda fue cancelada.";
+                    hint.Text = "La solicitud de ayuda fue cancelado/terminado.";
                     hint.Alignment = HintAlignment.Center;
                     hint.YCoordinate = 250;
                     hint.FontSize = 40;
